@@ -110,6 +110,11 @@ Frames: 3
 Algorithm: FIFO
 
 Output:  
+FIFO: 11 faults, 1 hit  
+
+Optimal: 9 faults, 3 hits  
+
+LRU: 10 faults, 2 hits
 
 Step-by-step breakdown in the text box. 📜  
 
