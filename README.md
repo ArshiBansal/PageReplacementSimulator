@@ -117,8 +117,8 @@ Faults and hit ratio stats. 📊
 
 Eye-catching plots of frame states and faults over time. 🎨
 
-<b>🙌 Acknowledgments</b>
 
-Built with ❤️ using Tkinter.  
-
-Visuals powered by Matplotlib.  
+## 🚀 Authors  
+👤 *Arshi Bansal*  
+👤 *Mansi Tyagi*   
+👤 *Tanvi Sharma*
