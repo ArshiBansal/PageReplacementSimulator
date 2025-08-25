@@ -1,129 +1,72 @@
-<b>📟 Page Replacement Algorithm Simulator</b>
+# Page Replacement Algorithm Simulator
 
-Python 
+A **Python Tkinter-based simulator** that demonstrates the working of FIFO, LRU, and Optimal page replacement algorithms. The application allows users to input a page reference string and number of frames, visualize step-by-step execution, and compare algorithm performance.
 
-This Python-powered tool uses Tkinter and Matplotlib to make operating system concepts pop. Simulate and compare FIFO, LRU, and Optimal algorithms with dazzling visualizations and real-time stats. 🚀  
-<b>✨ Features</b>
+---
 
-🧠 Algorithms: Explore FIFO, LRU, and Optimal page replacement strategies.  
+## Features
 
-🖼️ Interactive GUI: Input page strings and frame sizes effortlessly with Tkinter.  
+- Input page reference string (space-separated) and number of frames.
+- Choose between **FIFO**, **LRU**, and **Optimal** algorithms.
+- Step-by-step simulation showing page hits and page faults.
+- Visual representation of:
+  - Frame content over time
+  - Faults vs. hits over time
+- Compare all algorithms side-by-side using charts.
+- Clear input and output with a single click.
 
-📊 Visualizations:  
+---
 
-Frame states and fault/hit timelines in real-time.  
+## Technologies Used
 
-Side-by-side comparison of all algorithms with vibrant charts.
+- **Python 3**
+- **Tkinter** for GUI
+- **Matplotlib** for plotting and visualization
+- **NumPy** for data handling
 
-📈 Metrics: Instant page faults and hit ratios.  
+---
 
-🛠️ Debug Mode: Optional logs for a peek behind the scenes.
+## Installation
 
-<b>📸 Screenshots</b>
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/PageReplacementSimulator.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd PageReplacementSimulator/src
+   ```
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-![Screenshot 2025-03-07 171526](https://github.com/user-attachments/assets/13adb948-ecaa-4178-99e3-53cb075032bd)
+ ---
 
-![Screenshot 2025-03-07 171607](https://github.com/user-attachments/assets/c7eafce5-65d0-41a7-83d0-6c957480d82e)
+## How to Run
 
-![Screenshot 2025-03-07 171632](https://github.com/user-attachments/assets/4263f18c-2f26-49da-bc32-53719293252a)
+Run the simulator using:
 
-![Screenshot 2025-03-07 171652](https://github.com/user-attachments/assets/0335f1b2-18a0-40aa-847b-c7988ded37a0)
-
-<b>🌐 Flowcharts</b>
-
-![WhatsApp Image 2025-03-07 at 17 04 13](https://github.com/user-attachments/assets/72aa9645-6758-4c86-b3ff-1ff168b46619)
-
-<b>🛠️ Prerequisites</b>
-
-🐍 Python 3.x  
-
-📦 Libraries:  
-
-tkinter (bundled with Python)  
-
-matplotlib  
-
-numpy
-
-<b>🚀 Installation</b>
-
-Clone the Repository:  
-``` bash
-git clone https://github.com/ArshiBansal/PageReplacementSimulator.git
-
+```bash
+python simulator.py
 ```
 
-Install Dependencies:  
-```
-pip install matplotlib
-pip install numpy
-pip install tkinter
-```
+---
 
-Launch the Simulator:  
-```
-python Main_Code.py
-```
+## Usage
 
-<b>🔧 How to Use</b>
+1. Enter a **page reference string** (space-separated integers) in the input field.
+2. Enter the **number of frames**.
+3. Select the **algorithm** (FIFO, LRU, or Optimal).
+4. Click **Simulate** to view step-by-step page replacement results.
+5. Click **Compare All** to see a comparison of all three algorithms.
+6. Use **Clear** to reset inputs and outputs.
 
-Start the App: Run the script to launch the GUI. 🔥  
+---
 
-Enter Inputs:  
+## Future Improvements
 
-Page String: Space-separated list (e.g., 7 0 1 2 0 3).  
-
-Frames: Number of frames (e.g., 3).  
-
-Algorithm: Choose FIFO, LRU, or Optimal. 🎯
-
-Run It:  
-
-Simulate: Click to run one algorithm. 📉  
-
-Compare All: See all three in action with one click! ⚡  
-
-Reset: Clear everything to start over. 🧹
-
-🗂️ Code Breakdown
-
-page_replacement_simulator.py:  
-
-✨ __init__: Crafts the sleek GUI.  
-
-🚀 simulate: Powers a single algorithm run.  
-
-⚖️ compare_all: Battles all algorithms head-to-head.  
-
-🧩 fifo, lru, optimal: The algorithmic brains.  
-
-📊 plot_simulation: Creates the stunning visuals.
-
-<b>🌟 Example</b>
-
-Input:  
-
-Page String: 7 0 1 2 0 3 0 4 2 1 0 3  
-
-Frames: 3  
-
-Algorithm: FIFO
-
-Output:  
-FIFO: 11 faults, 1 hit  
-
-Optimal: 9 faults, 3 hits  
-
-LRU: 10 faults, 2 hits
-
-Step-by-step breakdown in the text box. 📜  
-
-Faults and hit ratio stats. 📊  
-
-Eye-catching plots of frame states and faults over time. 🎨
-
-
-## 🚀 Authors  
-👤 *Arshi Bansal*  
-👤 *Mansi Tyagi*   
-👤 *Tanvi Sharma*
+- Add additional page replacement algorithms such as MFU or Second-Chance.
+- Export simulation results to **CSV or PDF**.
+- Implement animated step-by-step visualization for clearer understanding.
+- Allow customization of GUI colors and themes.
